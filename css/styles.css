@@ -3,9 +3,10 @@ MAIN STYLES
 =============================================================================== */
 
 body {
-  width: 85%;
+  width: 520px;
   margin: auto;
   color: #472681;
+  max-width: 500px;
 }
 
 /* ===============================================================================
@@ -16,8 +17,6 @@ STEVE JOBS BANNER
   width: 100%;
   min-height: 300px;
   background-image: url("../images/Steve_Jobs_Speech_Photo.jpg");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -26,8 +25,8 @@ MAIN CONTENT
 =============================================================================== */
 
 #content-container {
-  width: 95%;
   margin-top: -5%;
+  padding-top: 2%;
   z-index: 1000;
   background-color: white;
   border-radius: 5%;
@@ -44,22 +43,37 @@ MAIN CONTENT
   font-weight: 600;
 }
 
+#heading {
+  padding-bottom: 4%;
+}
+
+#stats-container {
+  padding: 5% 0%;
+}
+
 
 h2 {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 h5 {
   margin-top: 5%;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 h6 {
-  font-weight: 700;
-  font-size: 1.05rem;
+  font-weight: 900;
+  display: inline-block;
 }
 
 p {
   font-weight: 400;
   font-size: 1.8rem;
+  display: inline-block;
+}
+
+.right-arrow {
+  float: right;
 }
