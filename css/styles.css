@@ -1,3 +1,65 @@
-h1 {
-  color: red;
+/* ===============================================================================
+MAIN STYLES
+=============================================================================== */
+
+body {
+  width: 85%;
+  margin: auto;
+  color: #472681;
+}
+
+/* ===============================================================================
+STEVE JOBS BANNER
+=============================================================================== */
+
+#banner {
+  width: 100%;
+  min-height: 300px;
+  background-image: url("../images/Steve_Jobs_Speech_Photo.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ===============================================================================
+MAIN CONTENT
+=============================================================================== */
+
+#content-container {
+  width: 95%;
+  margin-top: -5%;
+  z-index: 1000;
+  background-color: white;
+  border-radius: 5%;
+}
+
+.categories {
+  border-bottom: 2px solid #472681;
+  margin-top: 2%;
+  padding: 1.5%;
+}
+
+.stats {
+  display: inline-block;
+  font-weight: 600;
+}
+
+
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h5 {
+  margin-top: 5%;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.8rem;
 }
