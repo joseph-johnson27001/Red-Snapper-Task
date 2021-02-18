@@ -20,6 +20,17 @@ STEVE JOBS BANNER
   background-position: 50% 30%;
 }
 
+#back-button {
+  color: #FDFDFD;
+  padding-top: 2.2rem;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+#left-arrow {
+  margin-top: -8px;
+}
+
 /* ===============================================================================
 MAIN CONTENT
 =============================================================================== */
