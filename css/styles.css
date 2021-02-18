@@ -31,7 +31,7 @@ STEVE JOBS BANNER
   color: #FDFDFD;
   padding-top: 2.2rem;
   font-weight: 100;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-left: -5px;
   cursor: pointer;
 }
@@ -70,15 +70,18 @@ MAIN CONTENT
 }
 
 .numbers {
+  font-family: 'Lato', sans-serif;
+  color: #4B2B84;
   font-weight: 900;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   padding-top: 15px;
   margin-bottom: -10px;
 }
 
 .words {
   font-weight: 900;
-  font-size: 1rem;
+  font-size: 1.05rem;
+  display: block;
 }
 
 #heading {
@@ -129,6 +132,7 @@ p {
   font-weight: 400;
   font-size: 2.2rem;
   display: inline-block;
+  margin-left: -10px;
 }
 
 .right-arrow {
